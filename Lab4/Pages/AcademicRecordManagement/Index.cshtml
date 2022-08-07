@@ -1,0 +1,50 @@
+﻿@page
+@model Lab4.Pages.AcademicRecordManagement.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                <a asp-for="@Html.DisplayNameFor(model => model.AcademicRecord[0].CourseCodeNavigation)" asp-route-orderby="">Course</a>
+            </th>
+            <th>
+                <a asp-for="@Html.DisplayNameFor(model => model.AcademicRecord[0].Student)" asp-route-orderby="">Student</a>
+            </th>
+            <th>
+                <a asp-for="Html.DisplayNameFor(model => model.AcademicRecord[0].Grade" asp-route-orderby="">Grade</a>
+</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.AcademicRecord) {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseCodeNavigation.Code)-@Html.DisplayFor(modelItem => item.CourseCodeNavigation.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.Id) - @Html.DisplayFor(modelItem => item.Student.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.StudentId">Edit</a>|
+                <a asp-page="./Index" asp-route-delete="@item.StudentId" onclick="return confirm('Please confirm to delete the following academic record \n\n student: @item.Student.Name  \n\n Course: @item.CourseCodeNavigation.Title');">Delete</a>
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

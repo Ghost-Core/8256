@@ -1,0 +1,84 @@
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\appsettings.json
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.exe
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.deps.json
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.runtimeconfig.json
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.runtimeconfig.dev.json
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.dll
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\ref\Lab3.dll
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.pdb
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.Views.dll
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\Lab3.Views.pdb
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\bin\Debug\net5.0\AcademicManagement.dll
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.AssemblyInfoInputs.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.AssemblyInfo.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.RazorAssemblyInfo.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.RazorAssemblyInfo.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\staticwebassets\Lab3.StaticWebAssets.Manifest.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\staticwebassets\Lab3.StaticWebAssets.xml
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\scopedcss\bundle\Lab3.styles.css
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.TagHelpers.input.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.TagHelpers.output.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.RazorCoreGenerate.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\Registration.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.RazorTargetAssemblyInfo.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.RazorTargetAssemblyInfo.cs
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.Views.pdb
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.csproj.CopyComplete
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.dll
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\ref\Lab3.dll
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.pdb
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.genruntimeconfig.cache
+C:\Users\kazib\Desktop\AC- Internet Applications and Web Development\Fall 2021\CST 8256 - Web Programming Languages 1\Week 4, 5\Lab\Lab3\obj\Debug\net5.0\Lab3.csproj.AssemblyReference.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\appsettings.json
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.exe
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.deps.json
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.runtimeconfig.json
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.runtimeconfig.dev.json
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.dll
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\ref\Lab3.dll
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.pdb
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.Views.dll
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\Lab3.Views.pdb
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\bin\Debug\net5.0\AcademicManagement.dll
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.csproj.AssemblyReference.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.AssemblyInfoInputs.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.AssemblyInfo.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.RazorAssemblyInfo.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.RazorAssemblyInfo.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\staticwebassets\Lab3.StaticWebAssets.Manifest.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\staticwebassets\Lab3.StaticWebAssets.xml
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\scopedcss\bundle\Lab3.styles.css
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.TagHelpers.input.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.TagHelpers.output.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.RazorCoreGenerate.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\Registration.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.RazorTargetAssemblyInfo.cache
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.RazorTargetAssemblyInfo.cs
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.Views.pdb
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.csproj.CopyComplete
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.dll
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\ref\Lab3.dll
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.pdb
+C:\Users\ganji\Desktop\fall 2021\8256\Lab3\Lab3\obj\Debug\net5.0\Lab3.genruntimeconfig.cache

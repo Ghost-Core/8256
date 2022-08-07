@@ -1,0 +1,92 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Statistics</h1>
+    <p>Enter one, two or three numerical numbers and click Calculate button to get their statistics</p>
+</div>
+<br />
+<form method="post">
+    <div class="row">
+        <div class="offset-1 col-sm-4 text-right">
+            <p> First Number:</p>
+        </div>
+        <div class="col-md-3">
+            @{ string number1 = Model.Num1; }
+            <input type="text" name="Num1" class="form-control" value="@number1" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-1 col-sm-4 text-right">
+            <p> Second Number:</p>
+        </div>
+        <div class="col-md-3">
+            @{ string number2 = Model.Num2; }
+            <input type="text" name="Num2" class="form-control" value="@number2" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-1 col-sm-4 text-right">
+            <p> Third Number:</p>
+        </div>
+        <div class="col-md-3">
+            @{ string number3 = Model.Num3; }
+            <input type="text" name="Num3" class="form-control" value="@number3" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="offset-5 col-md-2">
+            <button class="btn btn-primary" type="submit">Calculate</button>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="offset-3 col-md-6 text-center font-weight-bold">
+            <p>@($"{Model.TxtError102}")</p>
+            <p>@($"{Model.TxtError101}")</p>
+            <p>@($"{Model.Info}")</p>
+
+        </div>
+    </div>
+    @if (Model.Min != 0 | Model.Max != 0)
+    {
+
+        <div class="row">
+            <div class="offset-1 col-sm-4 text-right">
+                <p> Minimum:</p>
+            </div>
+            <div class="col-md-3">
+                @($"{Model.Min}")
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-sm-4 text-right">
+                <p> Maximum:</p>
+            </div>
+            <div class="col-md-3">
+                @($"{Model.Max}")
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-sm-4 text-right">
+                <p> Average:</p>
+            </div>
+            <div class="col-md-3">
+                @($"{Model.Avg:F2}")
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-sm-4 text-right">
+                <p> Total:</p>
+            </div>
+            <div class="col-md-3">
+                @($"{Model.Total:F2}")
+            </div>
+        </div>
+    }
+
+</form>

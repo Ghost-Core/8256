@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Lab7.Models.DataAccess.AcademicRecord>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                <a asp-page="/index" asp-route-orderby="course"> @Html.DisplayNameFor(model => model.CourseCodeNavigation) </a>
+            </th>
+            <th>
+                <a asp-page="/index" asp-route-orderby="student"> @Html.DisplayNameFor(model => model.Student) </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                <a asp-controller="AcademicRecords" asp-action="EditAll"> Edit All</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseDisplayTest)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentDisplayTest)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade)
+                </td>
+                <td>
+                    <a asp-controller="AcademicRecords" asp-action="Edit" asp-route-code="@item.CourseCodeNavigation.Code" asp-route-id="@item.Student.Id">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

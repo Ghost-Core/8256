@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "AcademicManagement/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/AcademicManagement.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/AcademicManagement.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcademicManagement/1.0.0": {
+      "sha512": "C912fER8szuyON+EjoLfFi0j6kD1YfQstFLusgEWgGBvbMdsdP+GnjY08VcPgha5JjHvdIzAwAgCEHU7qdDQFg==",
+      "type": "package",
+      "path": "academicmanagement/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "academicmanagement.1.0.0.nupkg.sha512",
+        "academicmanagement.nuspec",
+        "lib/net5.0/AcademicManagement.dll",
+        "lib/net5.0/AcademicManagement.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "AcademicManagement >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ganji\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ganji\\Desktop\\Lab2\\Lab2\\Lab2.csproj",
+      "projectName": "Lab2",
+      "projectPath": "C:\\Users\\ganji\\Desktop\\Lab2\\Lab2\\Lab2.csproj",
+      "packagesPath": "C:\\Users\\ganji\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ganji\\Desktop\\Lab2\\Lab2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\LocalClassLib": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "AcademicManagement": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

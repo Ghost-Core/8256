@@ -1,0 +1,51 @@
+﻿@page
+@model Lab4.Pages.StudentManagement.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-for="@Html.DisplayNameFor(model => model.Student[0].Name)" asp-route-sortOrder="@Model.NameSort">Name</a>
+            </th>
+            <th>
+                <a asp-for="@Html.DisplayNameFor(model => model.Student[0].AvgGrad)" asp-route-orderby="">Avg. Grade</a>
+            </th>
+            <th>
+                <a asp-for="@Html.DisplayNameFor(model => model.Student[0].NumberOfCourses)" asp-route-orderby="">Number Of Courses</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Student)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AvgGrad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfCourses)
+                </td>
+                <td>
+
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Index" asp-route-delete="@item.Id" onclick="return confirm('Please confirm to delete student:\n\n   @item.Name  \n\n All his/her academic records will be deleted too!');">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

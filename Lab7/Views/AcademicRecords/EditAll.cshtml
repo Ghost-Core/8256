@@ -1,0 +1,61 @@
+﻿@model Lab7.Models.EditAllAcademicRecords
+
+@{
+    ViewData["Title"] = "EditAll";
+}
+
+<h1>EditAll</h1>
+<h4>Academic Records</h4>
+
+
+
+<form asp-action="EditAll">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-page="/index" asp-route-orderby="course"> @Html.DisplayNameFor(model => model.AcademicRecords.FirstOrDefault().CourseCodeNavigation) </a>
+                </th>
+                <th>
+                    <a asp-page="/index" asp-route-orderby="student"> @Html.DisplayNameFor(model => model.AcademicRecords.FirstOrDefault().Student) </a>
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AcademicRecords.FirstOrDefault().Grade)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.AcademicRecords.Count; i++)
+            {
+                <tr>
+
+                    <td>
+                        <input type="hidden" asp-for="@Model.AcademicRecords[i].CourseCode" />
+                        @Model.AcademicRecords[i].CourseDisplayTest
+                    </td>
+                    <td>
+                        <input type="hidden" asp-for="@Model.AcademicRecords[i].StudentId" />
+                        @Model.AcademicRecords[i].StudentDisplayTest
+                    </td>
+                    <td>
+                        <input asp-for="@Model.AcademicRecords[i].Grade" value="@Model.AcademicRecords[i].Grade" class="form-control" />
+                        <span asp-validation-for="@Model.AcademicRecords[i].Grade" class="text-danger"></span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

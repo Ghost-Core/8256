@@ -1,0 +1,130 @@
+﻿@page
+@model Lab3.Pages.RegistrationModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+@using AcademicManagement;
+
+<h1>Registrations</h1>
+<hr />
+<form method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <select asp-for="SelectedStudentId" asp-items="Model.StudentDropdownOptions" class="form-control" onchange="StudentDropdownChanged()">
+                <option value="-1">Choose a student ...</option>
+            </select>
+        </div>
+        <div class="col-md-4" style="display: none">
+            <button type="submit" class="btn btn-primary" asp-page-handler="StudentSelected" id="btn-select-student">Get Registrations</button>
+        </div>
+    </div>
+    <br />
+    @if (Model.Message != "")
+    {
+        <div class="row">
+            <div class="col-md-10 alert-info">
+                @Model.Message
+            </div>
+        </div>
+        <br />
+    }
+
+    @if (Model.AcademicRecordsOfSelectedStudent != null && Model.AcademicRecordsOfSelectedStudent.Count() > 0)
+    {
+          <div class="row">
+              <div class="col-md-10">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th>
+                                  <a asp-page="Registration" asp-route-orderby="code">Course Code</a>
+                              </th>
+                              <th>
+                                  <a asp-page="Registration" asp-route-orderby="title">Course Title</a>
+                              </th>
+                              <th style="width: 10%">
+                                  <a asp-page="Registration" asp-route-orderby="grade">Grade</a>
+                              </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          @for (int i = 0; i < Model.AcademicRecordsOfSelectedStudent.Count(); i++)
+                          {
+                              AcademicRecord ar = Model.AcademicRecordsOfSelectedStudent[i];
+                              Course course = DataAccess.GetAllCourses().Where(c => c.CourseCode == ar.CourseCode).FirstOrDefault();
+                              string grade = ar.Grade == -100 ? "" : ar.Grade.ToString();
+                              <tr>
+                                  <td>
+                                      <input type="hidden" asp-for="@Model.AcademicRecordsOfSelectedStudent[i].CourseCode" />
+                                      @course.CourseCode
+                                  </td>
+                                  <td>
+                                      @course.CourseTitle
+                                  </td>
+                                  <td>
+                                      <input class="form-control" asp-for="@Model.AcademicRecordsOfSelectedStudent[i].Grade" value="@grade" />
+                                  </td>
+                              </tr>
+                          }
+                      </tbody>
+                  </table>
+                  <button type="submit" class="btn btn-primary" asp-page-handler="Grade">Submit Grades</button>
+              </div>
+          </div>      
+    }
+    else if (Model.CourseSelections != null && Model.CourseSelections.Count() > 0)
+    {
+        <br />
+        <div class="row">
+            <div class="col-md-10">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a asp-page="Registration" asp-route-orderby="code">Course Code</a>
+                            </th>
+                            <th>
+                                <a asp-page="Registration" asp-route-orderby="title">Course Title</a>
+                            </th>
+                            <th style="width: 20%">
+                                <label class="control-label">Check to Register</label>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.CourseSelections.Count(); i++)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="hidden" asp-for="@Model.CourseSelections[i].TheCourse.CourseCode" />
+                                    @Model.CourseSelections[i].TheCourse.CourseCode
+                                </td>
+                                <td>
+                                    <input type="hidden" asp-for="@Model.CourseSelections[i].TheCourse.CourseTitle" />
+                                    @Model.CourseSelections[i].TheCourse.CourseTitle
+                                </td>
+                                <td style="width: 10%"> <input asp-for="@Model.CourseSelections[i].Selected" class="form-control" /> </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="submit" class="btn btn-primary" asp-page-handler="Register">Register</button>
+            </div>
+        </div>
+    }
+</form>
+
+
+
+
+@section Scripts {
+    <script type="text/javascript">
+        function StudentDropdownChanged() {
+            var getRegistrationBtn = document.getElementById("btn-select-student");
+            getRegistrationBtn.click();
+        }
+    </script>
+}
+
+
